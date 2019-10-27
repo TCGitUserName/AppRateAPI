@@ -55,7 +55,7 @@ namespace AppRateAPI
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Application Rating API V1");
             });
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 
