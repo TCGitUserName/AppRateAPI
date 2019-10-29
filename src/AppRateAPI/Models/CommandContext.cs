@@ -9,6 +9,6 @@ namespace AppRateAPI.Models
 
         }
 
-        public DbSet<Command> CommandItems {get; set;}
+        public DbSet<Command> RateList { get; set;}
     }
 }
